@@ -1,0 +1,230 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "UserAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_balance",
+						"type": "uint256"
+					}
+				],
+				"name": "addBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "numerator",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "denumerator",
+						"type": "uint256"
+					}
+				],
+				"name": "calcPercentage",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_userName",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Coba.Gender",
+						"name": "_userGender",
+						"type": "uint8"
+					}
+				],
+				"name": "callSetUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBlockNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_userName",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Coba.Gender",
+						"name": "_gender",
+						"type": "uint8"
+					}
+				],
+				"name": "setUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "userDetail",
+				"outputs": [
+					{
+						"internalType": "enum Coba.Gender",
+						"name": "userGender",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isPassed",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "userName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contract3October/Coba.sol": "Coba2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contract3October/Coba.sol": {
+			"keccak256": "0xaccca1bea7edfb48fbb9c06dab5801b4008b2c7b8a80803e95ad8c30a8d4f787",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc5338769925ef0f269a5a7fdf1a80f975c72a7536b96111cced58a098648590",
+				"dweb:/ipfs/QmdsNCqsZnyLhXPrQ7ctVGhFhZnMn18act3miTNk9CyAf6"
+			]
+		}
+	},
+	"version": 1
+}
